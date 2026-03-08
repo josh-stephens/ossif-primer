@@ -1,0 +1,12 @@
+[project]
+name = "ossif-primer"
+version = "0.1.0"
+description = "The OSSIF Primer — adaptive reasoning companion"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "google-genai>=1.10.0",
+]
+
+[project.scripts]
+primer = "primer.app:main"
