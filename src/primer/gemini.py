@@ -6,7 +6,7 @@ from collections.abc import AsyncIterator
 from google import genai
 from google.genai import types
 
-MODEL = "gemini-3-flash-preview"
+MODEL = "gemini-3.7-flash"
 
 _client = None
 
